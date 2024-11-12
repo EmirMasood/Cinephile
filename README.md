@@ -1,13 +1,45 @@
-# CINEPHILE
-#### Video Demo: <https://youtu.be/FVnPspVhYgQ>
-#### General Description:
-This is a game called cinephile. I made this game for the ones who are fond of movies and the ones who want to test their knowledge in the world of cinema.
-###### What Languages and Tools Are Used?
-This game is built using Python and one of its coolest libraries, IMDbPy. This library provides us everything about a movie, from the plot to the list of cast and crew.
-Writing this program's codes happened to be quite challenging for me since I had to start learning more and more Python syntaxes and algorithms in order to advance in my work. In addition, I've gone through the documents of IMDbPy library to get to know how it is used. Using this library, I tried to create a list of all the movies I want to be in the game. I chose Top 250 Movies of All Time. After Having a list of these movies' names, I created a dictionary that the key is the name of the movie and the value is its ID in IMDb. This algorithm and the Random library helped me choose a movie randomly from this list in each round of the game. This, alone, makes the game more fun and exciting.
-###### What It Is and How It Works:
-In Cinephile game, you have to guess the name of a movie based on its plot, actors, and director. In brief, this is how it works. It is consisted of three rounds. Each round has three different parts. At the start of each round and in their part one, the system prints the plot of a movie in a couple of sentences. The user must guess the name of the movie. If they can guess the name of movie in the first part, they get 20 points, else if they don't guess the correct name of the movie, they will be given 2 more chances in part one. If they don't tell the name of the movie in part one, they lose 10 points and they go into the part two. In part two, they have 2 chances to guess. In this part, they are given the list of the most famous actors/actresses of the movie. If they answer, they get 10 points in this part, else they lose another 5 points and they head to the final part of the round which is part three. In part three, they only have one chance to guess. They either answer correctly and get 5 points or cannot tell the name of the movie and get no point in the round.
-After part three, the round is over and they go to next round with the information of a new movie. The cycle repeates for three times in three rounds and when all the rounds are completed, the game is over and a dragon shows up and tell the total point of the user. Now the game is over.
-###### Possible Future:
-I might have some plans for this game. One feature that can be added in the future, is a graphical user interface for the game because the game currently has no graphical user interface and it can be fancier and more user friendly to think about a user interface for it rather than playing it in the terminal.
-Another thing I'm thinking of is using a database to keep the name and the total score of each player. I can make it a tournament of so many players who want to test their cinematic knowledge.
+# Cinephile
+### **Test Your Movie Knowledge Like Never Before!**
+#### **Video Demo:** [Watch on YouTube](https://youtu.be/FVnPspVhYgQ)
+
+### **Overview**
+*Cinephile* is a game designed for movie lovers who want to dive deep into cinema trivia. Whether you’re a casual fan or a full-blown film buff, this game will challenge your knowledge of films, actors, directors, and plots. Think you know the classics? Let's put that to the test!
+
+### **Languages & Tools Used**
+The game is powered by **Python** and the versatile **IMDbPy** library, which offers detailed movie information such as plots, cast lists, and crew members. Crafting Cinephile was no easy feat: I immersed myself in Python syntax, algorithms, and IMDbPy’s documentation to bring this idea to life.
+
+Using IMDbPy, I curated a selection of movies from IMDb’s Top 250 Films of All Time. Then, I crafted a dictionary with each movie’s title as the key and its IMDb ID as the value, allowing the game to randomly select a new movie for each round. Combined with Python’s **random** library, this setup ensures no two games are the same—every playthrough feels fresh and exciting.
+
+### **Gameplay**
+In *Cinephile*, your goal is to guess the movie title based on a series of clues. Each game consists of **three rounds**, each with **three parts** that progressively reveal hints about a randomly selected movie.
+
+**Round Structure:**
+
+1. **Part 1: Plot Guessing**
+   - A few sentences describing the plot appear on the screen. Guess the movie correctly at this stage, and you’ll score **20 points**.
+   - Incorrect guesses? No worries—you’ll get two more chances in Part 1.
+   - If you still can’t guess it, you’ll lose 10 points and move on to Part 2.
+
+2. **Part 2: Famous Cast Members**
+   - Here, you’ll see a list of the movie’s main actors and actresses.
+   - Guess correctly to earn **10 points**.
+   - Two chances are allowed in this part, but failing here deducts 5 points and sends you to Part 3.
+
+3. **Part 3: Director Clue**
+   - Now you get one final clue—the name of the movie's director.
+   - Guess correctly for **5 points**.
+   - No points are awarded if you miss the guess in this part.
+
+After three rounds, your total score is displayed, along with a cinematic dragon animation to wrap things up in style!
+
+### **Future Plans**
+The game has tons of potential, and I already have exciting ideas for enhancing it:
+
+1. **Graphical User Interface (GUI)**
+   - Instead of playing in the terminal, a user-friendly interface would add style and make the game more interactive and accessible for everyone.
+
+2. **Player Database & Leaderboard**
+   - Integrating a database would allow us to track players’ scores, making *Cinephile* a competition. Imagine a global leaderboard where cinephiles from around the world compete for the top spot!
+
+### **Join the Fun**
+Do you think you have what it takes to be considered a cinephile? Step into the world of movies and challenge yourself with clues from some of the greatest films in cinema.
