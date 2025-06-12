@@ -39,7 +39,7 @@ The game has tons of potential, and I already have exciting ideas for enhancing 
    - Instead of playing in the terminal, a user-friendly interface would add style and make the game more interactive and accessible for everyone.
 
 2. **Player Database & Leaderboard**
-   - Integrating a database would allow us to track players’ scores, making *Cinephile* a competition. Imagine a global leaderboard where cinephiles from around the world compete for the top spot!
+   - Integrating a database would allow us to track players’ scores, making *CinePy* a competition. Imagine a global leaderboard where cinephiles from around the world compete for the top spot!
 
 ### **Join the Fun**
 Do you think you have what it takes to be considered a cinephile? Step into the world of movies and challenge yourself with clues from some of the greatest films in cinema.
