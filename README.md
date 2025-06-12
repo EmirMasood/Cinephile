@@ -1,4 +1,4 @@
-# Cinephile
+# CinePy
 ### **Test Your Movie Knowledge Like Never Before!**
 #### **Video Demo:** [Watch on YouTube](https://youtu.be/FVnPspVhYgQ)
 
